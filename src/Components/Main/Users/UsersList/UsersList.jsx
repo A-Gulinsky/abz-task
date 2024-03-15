@@ -38,6 +38,8 @@ export const UsersList = () => {
     fetchData();
   }, [dispatch]);
 
+  console.log(`test`)
+
   return (
     <div>
       <Ul>
